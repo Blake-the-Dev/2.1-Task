@@ -90,8 +90,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 if (position == 1 && getValue.length() > 0)
                 {
                     double numValue = Double.parseDouble(getValue.getText().toString());
-                    double fValue = numValue * 33.8;
-                    double kValue = numValue * 274.15;
+                    double fValue = numValue * 32;
+                    double kValue = numValue * 273.15;
 
                     String fString = String.valueOf(fValue).format("%.2f", fValue);
                     String kString = String.valueOf(kValue).format("%.2f", kValue);
